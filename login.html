@@ -16,13 +16,38 @@
         <div id="right">
             <h1>Login / Sign up</h1>
             <div >
-                <input type="number" placeholder="Mobile Number">
+                <input type="number" id="mobile" placeholder="Mobile Number">
             </div>
-            <button>NEXT</button>
+                <button id="submit">NEXT</button>
         </div>
     </div>
 </body>
 </html>
 <script>
+    let formData = document.getElementById("formData");
+    let userData = JSON.parse(localStorage.getItem("Register-list")) || [];
+    formData.addEventListener("submit",submitUser);
     
+    function submitUser(e){
+        e.preventDefault();
+
+        let mobile = document.getElementById("mobile").value;
+        let otp = generateOtp()
+
+        
+        let user = {mobile,otp}
+        console.log(user)
+        userData.push(user)
+
+        localStorage.setItem("Register-list",JSON.stringify(userData))
+    }
+    const generateOtp = () => {
+        let otp = "";
+
+        for(let i=0;i<6;i++){
+            otp += Math.floor(Math.random() * 10);
+        }
+        return Number(otp);
+    }
+    console.log(generateOtp());
 </script>
