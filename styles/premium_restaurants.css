@@ -225,6 +225,7 @@
     /* outline: rgb(255, 0, 0) dashed 0.8333px; */
     box-sizing: border-box;
     border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
 }
 #copybtn {
     font-family: sans-serif;
