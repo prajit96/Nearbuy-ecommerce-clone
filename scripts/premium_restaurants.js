@@ -5,6 +5,7 @@ var data = [
         name : "Warehouse Cafe",
         address : "Connaught Place",
         deal : "Drinks with Starters from ₹2399",
+        price : 2399,
         bought : "4,695"
     },
     {
@@ -13,6 +14,7 @@ var data = [
         name : "Open House Cafe",
         address : "Connaught Place",
         deal : "Drinks with Starters from ₹1299",
+        price : 1299,
         bought : "3,796"
     },
     {
@@ -21,6 +23,7 @@ var data = [
         name : "Farmer's Basket At Pluck - Hotel Pullman",
         address : "Aerocity",
         deal : "Buffet Offers from ₹4833",
+        price : 4833,
         bought : "1,886"
     },
     {
@@ -29,6 +32,7 @@ var data = [
         name : "Cafe Pride - Pride Plaza Hotel",
         address : "Aerocity",
         deal : "Buffet Offers from ₹638",
+        price : 638,
         bought : "1,778"
     },
     {
@@ -37,6 +41,7 @@ var data = [
         name : "Level 2 - Radisson Blu",
         address : "Outer Ring Road, Paschim Vihar",
         deal : "Buffet Offers from ₹849",
+        price : 849,
         bought : "1,415"
     },
     {
@@ -45,6 +50,7 @@ var data = [
         name : "Lord of the Drinks",
         address : "Connaught Place",
         deal : "Drinks with Starters from ₹1429",
+        price : 1429,
         bought : "1,204"
     },
     {
@@ -53,14 +59,16 @@ var data = [
         name : "Fifty9 - Radisson Blu Marina Hotel",
         address : "Connaught Place",
         deal : "Buffet Offers from ₹1500",
+        price : 1500,
         bought : "1,410"
     },
     {
         id : 8,
         image : "https://img4.nbstatic.in/tr:w-350/60e4423640e9df000b9f2a24.jpg",
         name : "Cafe on 3 - Holiday Inn",
-        address : "Mayur Vihar Phase 1",
+        address : "Mayur Vihar Phase 1, Surajmal Vihar",
         deal : "Buffet Offer & Drinks with Starters from ₹799",
+        price : 799,
         bought : "1,106"
     },
     {
@@ -69,6 +77,7 @@ var data = [
         name : "Viva - All Day Dining - Holiday Inn",
         address : "Aerocity",
         deal : "Buffet, Set Menu Meals from ₹3199",
+        price : 3199,
         bought : "990"
     },
     {
@@ -77,14 +86,16 @@ var data = [
         name : "Connaught Clubhouse",
         address : "Connaught Place",
         deal : "Beer & Drinks with Starters from ₹1899",
+        price : 1899,
         bought : "674"
     },
     {
         id : 11,
         image : "https://img4.nbstatic.in/tr:w-350/62dfd5c5b3c621000b6fbc09.jpg",
         name : "Infinity - Crowne Plaza",
-        address : "Mayur Vihar Phase 1",
+        address : "Mayur Vihar Phase 1, Surajmal Vihar",
         deal : "Buffet Offers from ₹2299",
+        price : 2299,
         bought : "818"
     },
     {
@@ -93,6 +104,7 @@ var data = [
         name : "Food Exchange - Hotel Novotel",
         address : "Aerocity",
         deal : "Buffets, Set Menu Meals from ₹4584",
+        price : 4584,
         bought : "763"
     },
     {
@@ -101,6 +113,7 @@ var data = [
         name : "NYC - Radisson Blu Plaza Delhi Airport",
         address : "IGI T3 Road, Mahipalpur",
         deal : "Buffet Offers from ₹3999",
+        price : 3999,
         bought : "720"
     },
     {
@@ -109,6 +122,7 @@ var data = [
         name : "Savannah Bar - The Radisson Blu Plaza",
         address : "Mahipalpur",
         deal : "Drinks with Starters from ₹1895",
+        price : 1895,
         bought : "591"
     },
     {
@@ -117,14 +131,16 @@ var data = [
         name : "The Great Kabab Factory - Radisson Blu Plaza Delhi Airport",
         address : "IGI T3 Road, Mahipalpur",
         deal : "Buffet Offers from ₹2095",
+        price : 2095,
         bought : "644"
     },
     {
         id : 16,
         image : "https://img4.nbstatic.in/tr:w-350/60002b4ae1ecca000b032e32.jpg",
         name : "Dilli Kanteen Kitchen - The Grand",
-        address : "Nelson Mandela Road, Vasant Kunj Sector C",
+        address : "Nelson Mandela Road, Vasant Kunj Sector C, Saket",
         deal : "Buffet Offers from ₹1770",
+        price : 1770,
         bought : "675"
     },
     {
@@ -133,6 +149,7 @@ var data = [
         name : "Spring - Radisson Blu",
         address : "Soul City Mall, Sector 13 Dwarka",
         deal : "Buffet Offer from ₹2477",
+        price : 2477,
         bought : "694"
     },
     {
@@ -141,14 +158,16 @@ var data = [
         name : "The Hangar - Bar & Lounge - Holiday Inn",
         address : "Aerocity",
         deal : "Drinks with Starters from ₹1899",
+        price : 1899,
         bought : "435"
     },
     {
         id : 19,
         image : "https://img4.nbstatic.in/tr:w-350/5f5783ba3ea567000b0ac406.jpg",
         name : "Thyme - The Umrao",
-        address : "Samalka",
+        address : "Surajmal Vihar",
         deal : "Buffet Offers, Set Menu Meals, Beer & Drink with Starters from ₹1499",
+        price : 1499,
         bought : "424"
     },
     {
@@ -157,14 +176,16 @@ var data = [
         name : "Pavilion 75 - WelcomHotel Dwarka",
         address : "Sector 10 Dwarka",
         deal : "Buffet Offers and Set Menu Meals from ₹1799",
+        price : 1799,
         bought : "461"
     },
     {
         id : 21,
         image : "https://img4.nbstatic.in/tr:w-350/6114a7ec40e9df000b66f6eb.jpg",
         name : "Patio - The Muse Sarovar Portico",
-        address : "Bijwasan Road, Kapashera",
-        deal : "Buffet Offers from 649",
+        address : "Bijwasan Road, Saket",
+        deal : "Buffet Offers from ₹649",
+        price : 649,
         bought : "285"
     },
     {
@@ -172,7 +193,8 @@ var data = [
         image : "https://img4.nbstatic.in/tr:w-350/5fb37df45cc6f2000bbb48e2.jpg",
         name : "Stallion - Hotel Pride Plaza",
         address : "Aerocity",
-        deal : "Drinks with Starters from 999",
+        deal : "Drinks with Starters from ₹999",
+        price : 999,
         bought : "224"
     },
     {
@@ -180,15 +202,17 @@ var data = [
         image : "https://img4.nbstatic.in/tr:w-350/60631ce19b6019000bcf4b8a.jpg",
         name : "Cafe Knosh - The Leela Ambience Convention Hotel",
         address : "Maharaja Surajmal Road, Surajmal Vihar",
-        deal : "Buffet Offers from 750",
+        deal : "Buffet Offers from ₹750",
+        price : 750,
         bought : "1,486"
     },
     {
         id : 24,
         image : "https://img4.nbstatic.in/tr:w-350/61e5504a278a39000bf7de0a.jpg",
         name : "India Grill - Hilton Garden Inn",
-        address : "",
-        deal : "Buffet Offers from 2800",
+        address : "Saket",
+        deal : "Buffet Offers from ₹2800",
+        price : 2800,
         bought : "126"
     },
     {
@@ -196,7 +220,8 @@ var data = [
         image : "https://img4.nbstatic.in/tr:w-350/62e24adcb3c621000b6af62d.jpg",
         name : "Cherry Bar - The Leela Ambience Convention Hotel",
         address : "Maharaja Surajmal Road, Surajmal Vihar",
-        deal : "Drinks with Starters from 799",
+        deal : "Drinks with Starters from ₹799",
+        price : 799,
         bought : "76"
     },
     {
@@ -204,7 +229,8 @@ var data = [
         image : "https://img4.nbstatic.in/tr:w-350/62bef269b3c621000b267da6.jpg",
         name : "Nook - Hotel Aloft",
         address : "AeroCity",
-        deal : "Buffet Offers from 2360",
+        deal : "Buffet Offers from ₹2360",
+        price : 2360,
         bought : "746"
     },
     {
@@ -212,7 +238,8 @@ var data = [
         image : "https://img4.nbstatic.in/tr:w-350/62bee7863b031b000b9d659c.jpg",
         name : "Butterroom",
         address : "Epicuria, Nehru Place",
-        deal : "Drinks with Starters from 2529",
+        deal : "Drinks with Starters from ₹2529",
+        price : 2529,
         bought : "429"
     },
     {
@@ -220,7 +247,8 @@ var data = [
         image : "https://img4.nbstatic.in/tr:w-350/62b551b4b3c621000b267571.jpg",
         name : "The Flying Saucer Cafe",
         address : "Epicuria, Nehru Place",
-        deal : "Drinks with Starters from 1429",
+        deal : "Drinks with Starters from ₹1429",
+        price : 1429,
         bought : "338"
     },
     {
@@ -228,7 +256,8 @@ var data = [
         image : "https://img4.nbstatic.in/tr:w-350/60631c4eed895d000bdfc9c1.jpg",
         name : "Club Cuba - The Leela Ambience Convention Hotel",
         address : "Maharaja Surajmal Road, Surajmal Vihar",
-        deal : "Beer & Drinks with Starters from 799",
+        deal : "Beer & Drinks with Starters from ₹799",
+        price : 799,
         bought : "298"
     },
     {
@@ -236,17 +265,113 @@ var data = [
         image : "https://img4.nbstatic.in/tr:w-350/62430f9d3b031b000b701986.jpeg",
         name : "The Illusion Lounge & Bar",
         address : "MGF Metropolitan Mall, Saket",
-        deal : "Drinks with Starters from 2299",
+        deal : "Drinks with Starters from ₹2299",
+        price : 2299,
         bought : "99"
     }
     
 ];
+
+let bt1 = document.getElementById("bt1");
+let bt2 = document.getElementById("bt2");
+let bt3 = document.getElementById("bt3");
+let aerocity = document.getElementById("aerocity");
+let connaughtplace = document.getElementById("connaughtplace");
+let surajmalvihar = document.getElementById("surajmalvihar");
+let saket = document.getElementById("saket");
+let mahipalpur = document.getElementById("mahipalpur");
+let dwarka = document.getElementById("dwarka");
 
 localStorage.setItem("data", JSON.stringify(data));
 
 let datashowing = document.getElementById("datashowing");
 
 displaydata(data);
+
+bt1.addEventListener("click",()=>{
+    data.sort((a,b)=>([+b["bought"].replace(",", "")]-[+a["bought"].replace(",", "")]));
+    displaydata(data);
+    forbtn ();
+    bt1.style.backgroundColor = "#ef534e";
+    bt1.style.color = "#ffffff";
+});
+bt2.addEventListener("click",()=>{
+    data.sort((a,b)=>(b.price-a.price));
+    displaydata(data);
+    forbtn ();
+    bt2.style.backgroundColor = "#ef534e";
+    bt2.style.color = "#ffffff";
+});
+bt3.addEventListener("click",()=>{
+    data.sort((a,b)=>(a.price-b.price));
+    displaydata(data);
+    forbtn ();
+    bt3.style.backgroundColor = "#ef534e";
+    bt3.style.color = "#ffffff";
+});
+aerocity.addEventListener("click", ()=>{
+    let filtereddata = data.filter((element)=>{
+        if(element.address.toLowerCase().includes("aerocity")) {
+            return element;
+        }
+    });
+    forbtn ();
+    displaydata (filtereddata);
+});
+connaughtplace.addEventListener("click", ()=>{
+    let filtereddata = data.filter((element)=>{
+        if(element.address.toLowerCase().includes("connaught place")) {
+            return element;
+        }
+    })
+    forbtn ();
+    displaydata (filtereddata);
+});
+surajmalvihar.addEventListener("click", ()=>{
+    let filtereddata = data.filter((element)=>{
+        if(element.address.toLowerCase().includes("surajmal vihar")) {
+            return element;
+        }
+    })
+    forbtn ();
+    displaydata (filtereddata);
+});
+saket.addEventListener("click", ()=>{
+    let filtereddata = data.filter((element)=>{
+        if(element.address.toLowerCase().includes("saket")) {
+            return element;
+        }
+    })
+    forbtn ();
+    displaydata (filtereddata);
+});
+mahipalpur.addEventListener("click", ()=>{
+    let filtereddata = data.filter((element)=>{
+        if(element.address.toLowerCase().includes("mahipalpur")) {
+            return element;
+        }
+    })
+    forbtn ();
+    displaydata (filtereddata);
+});
+dwarka.addEventListener("click", ()=>{
+    let filtereddata = data.filter((element)=>{
+        if(element.address.toLowerCase().includes("dwarka")) {
+            return element;
+        }
+    })
+    forbtn ();
+    displaydata (filtereddata);
+});
+
+function forbtn () {
+    bt1.style.backgroundColor = "#ffffff";
+    bt1.style.color = "#666666";
+    bt2.style.backgroundColor = "#ffffff";
+    bt2.style.color = "#666666";
+    bt3.style.backgroundColor = "#ffffff";
+    bt3.style.color = "#666666";
+}
 
 function displaydata (data) {
     datashowing.innerHTML = null;
@@ -263,21 +388,26 @@ function displaydata (data) {
         let address = document.createElement("span");
         address.setAttribute("class", "address");
         address.innerText = element.address;
-        let deals = document.createElement("p");
-        deals.setAttribute("class", "deals");
-        deals.innerText = "DEALS"
         let deal = document.createElement("p");
         deal.setAttribute("class", "deal");
-        deal.innerText = deals.innerText + " " + element.deal;
+        let deals = document.createElement("span");
+        deals.innerText = "DEALS";
+        deals.setAttribute("class", "deals");
+        let deals2 = document.createElement("span");
+        deals2.innerText = " "+element.deal;
         let boughtdiv = document.createElement("div");
         boughtdiv.setAttribute("class", "boughtdiv");
         let bought = document.createElement("p");
         bought.setAttribute("class", "bought");
         bought.innerText = element.bought + " Bought";
 
+        deal.append(deals,deals2);
         card.append(image, name, address, deal);
         boughtdiv.append(bought);
         cardcontainer.append(card,boughtdiv);
+        cardcontainer.addEventListener("click", ()=>{
+            window.location.href = "deals.html";
+        })
         datashowing.append(cardcontainer);
     });
 }
