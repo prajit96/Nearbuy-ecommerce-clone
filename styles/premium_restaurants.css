@@ -63,6 +63,9 @@
 .cardcontainer {
     width: 90%;
 }
+.card:hover {
+    cursor: pointer;
+}
 .card {
     width: 90%;
     height: 300px;
