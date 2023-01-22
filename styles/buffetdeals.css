@@ -14,6 +14,9 @@
     margin-bottom: 15px;
     transition: 0.3s;
    }
+   .upper-section a{
+    text-decoration: none;
+   }
 
 .upper-section div{
     padding: 30px 8px;
@@ -142,3 +145,115 @@ h2{
 .Top-Rated-Restaurants img{
    width: 100%;
 }
+
+#parent{
+    width: 100%;
+    display: flex;
+}
+.fa-solid{
+    padding-left: 25px;
+    color: #999999;
+}
+.location{
+    font-size: 12px;
+    line-height: 12px;
+    color: #999999;
+}
+.box{
+    width: auto;
+    height: auto;
+    margin: 0 0 0 3px;
+    padding: 4px 30px 4px 18px;
+    font-size: 12px;
+    line-height: 24px;
+    font-family: sans-serif;
+    color: #333333;
+    background-color: #ffffff;
+    border: 1px solid #999999;
+    border-radius: 5px;
+    display: inline;
+    cursor: pointer;
+    background: 0% 0%;
+}
+.hire{
+    height: 34px;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: left;
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #EF524E;
+    height: 34px;
+    width: 90px;
+    padding: 8px 12px 8px 12px;
+    padding-left: 480px;
+    margin-left: 125px;
+}
+.black{
+    height: 34px;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: left;
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #333333;
+    height: 34px;
+    width: 90px;
+    padding: 8px 12px 8px 12px;
+}
+#parent{
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    background-color: #ffffff;
+    height: 37px;
+    width: 100%;
+    padding: 0 0px 0 0px;
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    display: block;
+}
+#searchbar{
+    margin-top: 7.5px;
+    height: 15px;
+    margin-left: 35px;
+}
+#img {
+    margin: 1 em 0;
+}
+#img input{
+    background-color: transparent;
+    width: 40%;
+    border-bottom: 1 px solid gray;
+    padding: 1em 0.3em;
+    margin-left: 450px;
+    border-radius: 2px;
+}
+#img input:focus{
+    border-bottom-color: #d3d2dc;
+}
+#img button{
+    padding: 1em 2em;
+    background-color: #EF524E;
+    height: 45px;
+    margin-left: 5px;
+    border: none;
+    color: #ffffff;
+    border-radius: 2px;
+    margin-top: 7.5px;
+    cursor: pointer;
+}
+#img img {
+    width: 160px;
+    padding-left: 27px;
+    height: 70px;
+}
+
+

@@ -405,6 +405,9 @@ function displaydata (data) {
         card.append(image, name, address, deal);
         boughtdiv.append(bought);
         cardcontainer.append(card,boughtdiv);
+        cardcontainer.addEventListener("click", ()=>{
+            window.location.href = "deals.html";
+        })
         datashowing.append(cardcontainer);
     });
 }
