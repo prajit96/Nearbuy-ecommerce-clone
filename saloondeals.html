@@ -82,10 +82,10 @@
 
 .upper-section div{
     padding: 30px 8px;
-
+    /* border: 2px solid red; */
 }
 .upper-section div:hover{
-  
+    /* background-color: #CFD8DC; */
    margin-top: 6px;
    margin-bottom: 6px;
    
@@ -116,7 +116,32 @@
     /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
 }
 
+/* upper section 1 slider 1*/
 
+
+/* .upper-section-1-slider-1{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.upper-section-1-slider-1 div{
+    justify-content: space-evenly;
+}
+
+.upper-section-1-slider-1 img{
+    width: 100%;
+    height: 150px;
+    width: 150px;
+    gap: 40px;
+} */
+
+
+
+/* upper section 2 slider 2*/
 
 .upper-section-2-slider-2{
    width: 100%;
@@ -153,7 +178,7 @@
     color: #000;
     margin-left: 70px;
     margin-bottom: 15px;
-   
+    /* text-align: center */
 
 }
 
@@ -184,7 +209,28 @@ h2{
   margin-left: 10px;
 }
 
+/* Top-Rated-Restaurants */
 
+/* .rated-restaurent{
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap:10px;
+    margin: auto;
+}
+
+.rated-restaurent img{
+    width: 95%;
+}
+.rated-restaurent div{
+  
+} */
+/* .Top-Rated-Restaurants{
+    width: 90%;
+    display: f;
+    justify-content: space-evenly;
+    margin: auto;
+} */
 
 .Top-Rated-Restaurants{
     width: 95%;
@@ -244,11 +290,7 @@ height: 50%;
 margin-top: 50px;
 margin-left: 30px;
 margin-right: 30px;
-
-
 }
-
-
 
 #Hair>div>img {
 width: 100%;
@@ -263,40 +305,149 @@ gap: 15px;
 
 margin-bottom: 30px;
 margin: 20px;
-
-
 }
-
 #masa>div {
-
 text-align: center;
 width: 100%;
 } 
-
-
-#masa>div>img {
-width: 90%;
-height:90%;
-border: radius 20px;
-margin-top: 20px;
-}
-
-
 .upper-section a{
-    text-decoration: none;
+  text-decoration: none;
 }
-
-
-
+#parent{
+    width: 100%;
+    display: flex;
+}
+.fa-solid{
+    padding-left: 25px;
+    color: #999999;
+}
+.location{
+    font-size: 12px;
+    line-height: 12px;
+    color: #999999;
+}
+.box{
+    width: auto;
+    height: auto;
+    margin: 0 0 0 3px;
+    padding: 4px 30px 4px 18px;
+    font-size: 12px;
+    line-height: 24px;
+    font-family: sans-serif;
+    color: #333333;
+    background-color: #ffffff;
+    border: 1px solid #999999;
+    border-radius: 5px;
+    display: inline;
+    cursor: pointer;
+    background: 0% 0%;
+}
+.hire{
+    height: 34px;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: left;
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #EF524E;
+    height: 34px;
+    width: 90px;
+    padding: 8px 12px 8px 12px;
+    padding-left: 480px;
+    margin-left: 125px;
+}
+.black{
+    height: 34px;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: left;
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #333333;
+    height: 34px;
+    width: 90px;
+    padding: 8px 12px 8px 12px;
+}
+#parent{
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    background-color: #ffffff;
+    height: 37px;
+    width: 100%;
+    padding: 0 0px 0 0px;
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    display: block;
+}
+#searchbar{
+    margin-top: 7.5px;
+    height: 15px;
+    margin-left: 35px;
+}
+#img {
+    margin: 1 em 0;
+}
+#img input{
+    background-color: transparent;
+    width: 40%;
+    border-bottom: 1 px solid gray;
+    padding: 1em 0.3em;
+    margin-left: 450px;
+    border-radius: 2px;
+}
+#img input:focus{
+    border-bottom-color: #d3d2dc;
+}
+#img button{
+    padding: 1em 2em;
+    background-color: #EF524E;
+    height: 45px;
+    margin-left: 5px;
+    border: none;
+    color: #ffffff;
+    border-radius: 2px;
+    margin-top: 7.5px;
+    cursor: pointer;
+}
+#img img {
+    width: 160px;
+    padding-left: 27px;
+    height: 70px;
+}
     </style>
 </head>
 <body>
-    <hr style="height:1px;border-width:0;color:gray;background-color:gray;">
+  <div id="parent">
+    <div>
+        <i class="fa-solid fa-location-dot"></i>
+        <span class="location">Select Location</span>
+        <span class="box">New Delhi</span>
+        <a href="#" class="hire">We're hiring</a>
+        <a href="#" class="black">How it Works</a>
+        <a href="#" class="black">List Your Business</a>
+        <a href="#" class="black">My Account</a>
+    </div>
+</div>
+<div id="img">
+    <div style="display: flex;">
+        <a href="/index.html"><img src="/IMG_20230119_152249.png" alt=""></a>
+        <input type="text" id="searchbar" style="color: 1px solid gray;" placeholder="Search reastaurant,spa,event">
+        <button id="searchbtn">Search</button>
+    </div>
+</div>
+    <hr style="height:1px;border-width:0;color:rgb(224, 124, 124);background-color:rgb(245, 176, 176)">
     <div class="upper-section">
-       <!-- <a href="./buffetdeals.html"> -->
         <div>
           <img src="https://img4.nbstatic.in/tr:w-/5ed9143c4cedfd000b21d66c.png" alt="ERROR">
-          <a href=""><p id="t1" style="text-decoration: none;">Hair Deals</p></a>
+          <a href="#"><p>Hair Deals</p></a>
           </div>
         <div>
             <img src="https://img4.nbstatic.in/tr:w-/5f7d8150b7b01c000b8d348c.png" alt="">
@@ -344,7 +495,7 @@ margin-top: 20px;
         </div>
     </div>
     <hr style="height:1px;border-width:0;color:gray;background-color:gray">
-    <h1>Top brand</h1>
+    <h1>Top brand </h1>
 
     <div class="autoplay">
      <div>
@@ -447,7 +598,9 @@ margin-top: 20px;
             <img src="https://img4.nbstatic.in/tr:w-350/60fe7a3d1e2731000b9be427.jpg" alt="">
         </div>
 
-      
+        <!-- <div>
+            <img src="https://img4.nbstatic.in/tr:w-350/636366e522b317000bd17b56.jpg" alt="">
+        </div> -->
 
     </div>
     <h1 class="offers for mens">Offer for mens</h1>
@@ -474,7 +627,10 @@ margin-top: 20px;
             <img src="https://img4.nbstatic.in/tr:w-350/60fe7b9f40e9df000b0f5c6a.jpg" alt="">
         </div>
 
-       
+        <!-- <div>
+            <img src="https://img4.nbstatic.in/tr:w-350/636366e522b317000bd17b56.jpg" alt="">
+        </div> -->
+
     </div>
 
     <div class="upper-section-2-slider-2">
@@ -504,6 +660,28 @@ margin-top: 20px;
     </div>
 
     
+    <h2>Top-Rated-salon</h2>
+    <div  class="Top-Rated-Restaurants">
+        <div>
+          <img src="https://img4.nbstatic.in/tr:w-700/5c3432e0ee3588000d918041.jpg" alt="">
+          <p>Jawed Habib Hair & Beauty</p>
+        </div>
+        <div>
+          <img src="https://img4.nbstatic.in/tr:w-700/5c17410f5f1503000e5a03e0.jpg" alt="">
+          <p>Salon Nirvana By SS</p>
+        </div>
+        <div>
+          <img src="https://img4.nbstatic.in/tr:w-700/611236261e2731000b703493.jpg" alt="">
+          <p>Te Amo Unisex Salon</p>
+        </div>
+        <div>
+          <img src="https://img4.nbstatic.in/tr:w-700/5edb5a304cedfd000b21d8b4.jpg" alt="">
+        </div>
+      </div>
+      <div class ="logo">
+        <img src="https://img4.nbstatic.in/tr:w-2800/611b71ed40e9df000b81097f.jpg" alt="">
+      </div>
+       
    
       <div id="Hair">
 
@@ -661,11 +839,6 @@ margin-top: 20px;
         <img src="https://img4.nbstatic.in/tr:w-2800/611b71ed40e9df000b81097f.jpg" alt="">
       </div>
       
-
-      
-
-    
-    
     
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     
@@ -677,7 +850,6 @@ margin-top: 20px;
         autoplay: true,
         autoplaySpeed: 2000,
         });
-
     </script>
    
 </html>
