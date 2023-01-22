@@ -1,12 +1,12 @@
 var data = [
     {
         id : 1,
-        image : "https://img4.nbstatic.in/tr:w-350/5f5782eab7b01c000b3d8fdf.jpg",
-        name : "Warehouse Cafe",
+        image : "https://img4.nbstatic.in/tr:w-350/604efabf3eb5b6000b55cc1f.jpg",
+        name : "Connaught Clubhouse",
         address : "Connaught Place",
-        deal : "Drinks with Starters from ₹2399",
-        price : 2399,
-        bought : "4,695"
+        deal : "Beer & Drinks with Starters from ₹1899",
+        price : 1899,
+        bought : "674"
     },
     {
         id : 2,
@@ -19,12 +19,12 @@ var data = [
     },
     {
         id : 3,
-        image : "https://img4.nbstatic.in/tr:w-350/6120ad6140e9df000b810d18.jpg",
-        name : "Farmer's Basket At Pluck - Hotel Pullman",
-        address : "Aerocity",
-        deal : "Buffet Offers from ₹4833",
-        price : 4833,
-        bought : "1,886"
+        image : "https://img4.nbstatic.in/tr:w-350/620225d73b031b000b53e5fe.jpg",
+        name : "Savannah Bar - The Radisson Blu Plaza",
+        address : "Mahipalpur",
+        deal : "Drinks with Starters from ₹1895",
+        price : 1895,
+        bought : "591"
     },
     {
         id : 4,
@@ -82,12 +82,12 @@ var data = [
     },
     {
         id : 10,
-        image : "https://img4.nbstatic.in/tr:w-350/604efabf3eb5b6000b55cc1f.jpg",
-        name : "Connaught Clubhouse",
+        image : "https://img4.nbstatic.in/tr:w-350/5f5782eab7b01c000b3d8fdf.jpg",
+        name : "Warehouse Cafe",
         address : "Connaught Place",
-        deal : "Beer & Drinks with Starters from ₹1899",
-        price : 1899,
-        bought : "674"
+        deal : "Drinks with Starters from ₹2399",
+        price : 2399,
+        bought : "4,695"
     },
     {
         id : 11,
@@ -118,12 +118,12 @@ var data = [
     },
     {
         id : 14,
-        image : "https://img4.nbstatic.in/tr:w-350/620225d73b031b000b53e5fe.jpg",
-        name : "Savannah Bar - The Radisson Blu Plaza",
-        address : "Mahipalpur",
-        deal : "Drinks with Starters from ₹1895",
-        price : 1895,
-        bought : "591"
+        image : "https://img4.nbstatic.in/tr:w-350/6120ad6140e9df000b810d18.jpg",
+        name : "Farmer's Basket At Pluck - Hotel Pullman",
+        address : "Aerocity",
+        deal : "Buffet Offers from ₹4833",
+        price : 4833,
+        bought : "1,886"
     },
     {
         id : 15,
